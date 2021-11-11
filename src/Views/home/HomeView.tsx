@@ -1,10 +1,7 @@
-# Kanye Quote Typescript Intro
+import React from 'react'
+import { useState } from 'react';
+import Quote from "../../components/Quote/Quote";
 
-An introduction to using Typescript in React.
-
-It involved writing a fetch from the Kanye Rest API, typing the response by using an interface and then passing the quote as a prop.
-
-```
 interface IKanyeResponse {
   quote: string;
 }
@@ -30,6 +27,5 @@ const HomeView: React.FC = () => {
     </div>
   )
 }
-```
 
-
+export default HomeView
