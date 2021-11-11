@@ -4,6 +4,8 @@ An introduction to using Typescript in React.
 
 It involved writing a fetch from the Kanye Rest API, typing the response by using an interface and then passing the quote as a prop.
 
+
+
 ```
 interface IKanyeResponse {
   quote: string;
